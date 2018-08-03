@@ -1,8 +1,8 @@
 <html>
     <head>
+        <meta charset="UTF-8">
         <link href='./CSS/style.css' type='text/css' rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-        <script src="./Javascript/Profile_ToDo.js"></script>      
     </head>
     <body>
         <div class="container">
@@ -13,22 +13,24 @@
                 <input class="input-style" type="text" placeholder="e.g.  AryaStark@gmail.com" id="uName" required>             
                                                                                       
                 <label for="fName"><b>First Name</b></label>
-                <input class="input-style" type="text" placeholder="First Name" id="fName" required>                           
+                <input class="input-style" type="text" placeholder="First Name" id="fName" value="" required>                           
               
                 <label for="lName"><b>Last Name</b></label>
-                <input class="input-style" type="text" placeholder="Last Name" id="lName" required>                          
+                <input class="input-style" type="text" placeholder="Last Name" id="lName" value="" required>                          
                     
                 <label for="Pwd"><b>Password</b></label>
-                <input class="input-style" type="password" placeholder="*****" id="Pwd" required>              
+                <input class="input-style" type="password" placeholder="*****" id="Pwd" value="" required>              
                  
                 <label for="Addr"><b>Address</b></label>
-                <input class="address-box" type="text" id="Addr">
+                <input class="address-box" type="text" id="Addr" value="">
 
                 <button type="submit" onclick="Display();" id="register-btn">Edit</button>
 
             </div>     
         </div>
     </body>
+    <script src="./Javascript/Profile_ToDo.js"></script>      
+
 </html>
 
 

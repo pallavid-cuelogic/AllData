@@ -1,25 +1,25 @@
-function ProfilePic()
-{
-    var Funame=document.getElementById("uName").value;
-    
-    console.log("In Profile Page");
-    
-    var text = localStorage.getItem(Funame);   
-    var obj= JSON.parse(text);   
-    
-    document.getElementById("fname")=obj[0].fname;
-    document.getElementById("lname")=obj[0].lname;
-    document.getElementById("pwd")=obj[0].pwd;
-    document.getElementById("addr")=obj[0].addr;
+      
+    var text = localStorage.getItem("id");   
 
-    window.open("ProfilePage_ToDo.html","_self")
+    console.log(text);  
+    
+    var t=localStorage.getItem(text);
+    var obj= JSON.parse(t); 
 
-}
+    console.log(obj);  
+
+  document.getElementById("fName").value=obj[0].fname;
+  document.getElementById("lName").value=obj[0].lname;
+  document.getElementById("Pwd").value=obj[0].pwd;
+  document.getElementById("Addr").value=obj[0].addr;
+
+    //window.open("ProfilePage_ToDo.html","_self")
+
+//}
 
 function Display()
 {
     //window.open("UpdateProfile_ToDo.html","_self")
-alert("In Display through Profile page");
-
+    alert("In Display through Profile page");
 }
 

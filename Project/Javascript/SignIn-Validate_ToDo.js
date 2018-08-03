@@ -19,7 +19,12 @@ function SignIn()
     }
 
     alert("Login Successfully");
-    //window.open("ProfilePage_ToDo.html","_self");
+
+    localStorage.setItem("id",Funame);
+
+    //ProfilePic(Funame);
+
+    window.open("ProfilePage_ToDo.html","_self");
 
 }
  
