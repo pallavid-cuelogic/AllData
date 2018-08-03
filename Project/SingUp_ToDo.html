@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href='./CSS/style.css' type='text/css' rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    </head>
+    <body>
+        <script src="Javascript/Validation_ToDo.js"> </script>
+        <script src="Javascript/Store_ToDo.js"> </script>
+        <div class="container">
+            <image class="logo-img" src="./Images/logo.png" />
+            <p class="line">Grab Your Events in Time</p>
+            <div class="details">
+                <label for="uName"><b>User Name</b></label>
+                <input class="input-style" type="text" placeholder="e.g.  AryaStark@gmail.com" id="uName" required>             
+                                                                                  
+                <label for="fName"><b>First Name</b></label>
+                <input class="input-style" type="text" placeholder="First Name" id="fName" required>                           
+            
+                <label for="lName"><b>Last Name</b></label>
+                <input class="input-style" type="text" placeholder="Last Name" id="lName" required>                          
+                
+                <label for="Pwd"><b>Password</b></label>
+                <input class="input-style" type="password" placeholder="*****" id="Pwd" required>              
+             
+                <label for="Addr"><b>Address</b></label>
+                <input class="address-box" type="text" id="Addr">
+             
+                <label for="Gender"><b>Gender</b></label>   
+                <select class="select-style" id="Gender">
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Other">Other</option>
+                </select>
+            
+                <label for="ProPic"><b>Profile Pic</b></label>
+                <input style="margin-bottom: 30px;" type="file" id="Browse">    
+            
+                <button type="submit" onclick="Store()" id="register-btn">Register</button>
+             
+                <p id="text-signIn" >Already have an Account ?  
+                <a id="sign-in" href="Sign-In_ToDo.html">Sign In</a>
+
+            </div>
+        </div>       
+    </body>
+</html>
+
