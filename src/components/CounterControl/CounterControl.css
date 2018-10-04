@@ -1,10 +1,10 @@
 .CounterControl {
-    width: 120px;
-    padding: 15px;
+    width: 150px;
+    padding: 20px;
     box-sizing: border-box;
     margin: 16px;
-    border: 1px solid rgb(211, 205, 205);
-    box-shadow: 0 2px 2px black;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
     font-weight: bold;
     text-align: center;
     cursor: pointer;

@@ -4,7 +4,7 @@ import './CounterOutput.css';
 
 const counterOutput = (props) => (
     <div className="CounterOutput">
-        Counter = {props.value}
+        Current Counter: {props.value}
     </div>
 );
 
