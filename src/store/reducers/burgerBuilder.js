@@ -1,9 +1,9 @@
 import * as actionTypes from '../actions/actionTypes';
-import { updateObject } from '../utility';
+import { updateObject } from '../../shared/utility';
 
 const initialState = {
     ingredients: null,
-    totalPrice: 4,
+    totalPrice: 5,
     error: false,
     building: false
 };
@@ -45,7 +45,7 @@ const setIngredients = (state, action) => {
             cheese: action.ingredients.cheese,
             meat: action.ingredients.meat
         },
-        totalPrice: 4,
+        totalPrice: 5,
         error: false,
         building: false
     } );
